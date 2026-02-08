@@ -1,69 +1,35 @@
-# Crosshair Overlay v6.0
+# 🎯 Crosshair App
 
-Crosshair Overlay v6 is a lightweight, single-file Windows overlay that displays a customizable crosshair on top of applications and games.
+## 🇷🇺 Русская версия
 
-Highlights:
-- Russian and English UI (default: Russian)
-- 5 built-in themes with geometry and typography options
-- Click response (flash), blink, RGB chroma, chaos mode
-- Safe Tkinter animations (`root.after`) to avoid GUI thread issues
-- Single-file distribution: `crosshair_overlay_v6.pyw`
+### О приложении
+Я создал это приложение-прицел просто потому, что сам этого захотел! 🚀
 
-Quick start
------------
-Prerequisites:
-- Windows 10+
-- Python 3.8+
+### Как это было сделано
+Разработка велась с помощью **GitHub Copilot** 🤖✨
 
-Install dependencies (optional):
+Это был интересный опыт создания простого, но полезного инструмента для геймеров и стримеров! 🎮
 
-```bash
-pip install -r requirements.txt
-```
+### 📥 Установка
+В новых версиях установка стала ещё проще - просто скачайте .exe файл и запускайте! 
+Никаких сложных настроек! ⚡
 
-Run (no console):
+---
 
-```powershell
-# Use batch launcher (recommended)
-crosshair_overlay_v6.bat
+## 🇬🇧 English Version
 
-# Or run with pythonw.exe to hide console
-pythonw.exe crosshair_overlay_v6.pyw
-```
+### About the App
+I made this crosshair app simply because I wanted to! 🚀
 
-Hotkeys
--------
-- F6 — Toggle overlay
-- F7 — Toggle settings window
-- END — Panic exit (close app)
+### How It Was Made
+The development was done with the help of **GitHub Copilot** 🤖✨
 
-How to push to GitHub
----------------------
-1. Create a new repository on GitHub.
-2. In your local folder (`Crosshair`), run:
+It was an interesting experience creating a simple yet useful tool for gamers and streamers! 🎮
 
-```bash
-git init
-git add .
-git commit -m "Add Crosshair Overlay v6"
-# add your remote e.g.:
-# git remote add origin git@github.com:youruser/yourrepo.git
-git branch -M main
-git push -u origin main
-```
+### 📥 Installation
+In the new versions, installation has become even easier - just download the .exe file and run it!
+No complicated setup required! ⚡
 
-Files to include
-----------------
-- `crosshair_overlay_v6.pyw` (main)
-- `crosshair_overlay_v6.bat` (launcher)
-- `requirements.txt`
-- `README.md`
-- `LICENSE`
+---
 
-Ignore
-------
-Add these to `.gitignore`: `logs/`, `crosshair_config_v6.json`, `.venv/`, `__pycache__/`.
-
-License
--------
-This project is licensed under MIT (see `LICENSE`).
+**Made with ❤️ and AI assistance**
